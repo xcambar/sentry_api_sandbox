@@ -102,5 +102,5 @@ Promise.all([
   console.log(JSON.stringify(occurencesByBrowser, null, 2));
 
 }).catch(function (err) {
-  console.error(err.message, err.stack);
+  console.log(err.stack);
 });
